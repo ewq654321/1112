@@ -7,7 +7,7 @@ with open(r'C:\Users\zheng\Desktop\record.txt','r')as f:
         t = f.read(3)
         print(t, end='')
         print()
-        #time.sleep(1)
+        time.sleep(1)
 
 
 
