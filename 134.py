@@ -5,8 +5,7 @@ with open(r'C:\Users\zheng\Desktop\record.txt','r')as f:
     print(t)
     while len(t):
         t = f.read(3)
-        print(t, end='')
-        print()
+        print(t)
         time.sleep(1)
 
 
